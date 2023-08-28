@@ -212,6 +212,9 @@ header .cont p::after {
   min-height: 10px;
   background-color: #cde1f8;
 }
+.skills .prog .html{
+  width: 85%;
+}
 .skills .prog section article {
   min-height: 10px;
   background-color: #0078ff;
@@ -223,7 +226,9 @@ header .cont p::after {
 .skills .prog.php article {
   width: 50%;
 }
-.skills .prog.java article {
+
+.skills .prog.java article,
+.skills .prog.java p {
   width: 90%;
 }
 
